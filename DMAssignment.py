@@ -20,7 +20,8 @@ def runClassifer(classifier, X_train, y_train, y_test):
         print("Accuracy:",accuracy_score(y_test, y_pred))
         print("Confusion matrix: \n", confusion_matrix(y_test, y_pred))
         print(classification_report(y_test, y_pred))   
-        
+
+
 # Set the preferences
 pd.set_option('display.max_columns',100) 
 pd.set_option('display.max_colwidth', 100)
